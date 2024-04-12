@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.form-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.features {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20%;
+  background-image: url("bg1.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+}
+h3 {
+  color: rgb(35, 35, 54);
+}
+.cyberpay-header {
+  width: 100%;
+  margin: 0 auto;
+}
+.cyberpay-logo {
+  display: flex;
+  justify-content: center;
+}
+/* .logo {
+  margin-left: 40%;
+} */
+.signup-form {
+  margin: 0 auto;
+}
+.btn-submit {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  color: white;
+  border-radius: none;
+}
+.form-control {
+  padding: 0.7rem 0.75rem;
+}
+.form-select {
+  padding: 0.7rem 0.75rem;
+}
+form {
+  width: 95%;
+  margin: 0 auto;
+}
+.feature-header {
+  width: 85%;
+  border-radius: 20px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  /* font-style: italic; */
+}
+
+.features-content {
+  width: 85%;
+  margin: 0 auto;
+}
+.list-icon {
+  background-color: lightblue;
+  height: 60px;
+  width: 100px;
+  margin-right: 5px;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 9px 9px;
+}
+.list-group-item {
+  border: none;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.icon {
+  color: blue;
+}
+.submit-button-container {
+  width: 100%;
+}
+.link:hover {
+  color: blue;
+}
